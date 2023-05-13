@@ -852,16 +852,12 @@ ALTER TABLE customer DROP COLUMN date_of_birth;
 SELECT * FROM customer;
 
 DESC customer;
-
 ALTER TABLE customer MODIFY COLUMN city varchar(50);
-
 DESC customer;
 
 
 ALTER TABLE customer RENAME COLUMN city TO location;
-
 DESC customer;
-
 SELECT * FROM customer;
 
 
